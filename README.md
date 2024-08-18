@@ -1,6 +1,6 @@
 
 # Project Title
-Password strength checker app using basic HTML,CSS,Javascript.
+Notes app using basic HTML,CSS,Javascript.
 
 Wanna make some notes for your daily tasks , I got yaa!!
  
