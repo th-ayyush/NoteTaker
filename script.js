@@ -3,6 +3,8 @@ const main=document.querySelector("#main");
 
 addbtn.addEventListener("click",addnote);
 
+
+//Logic for adding a note
 function addnote(){
     const note =document.createElement("div");
     note.classList.add("note");
@@ -28,6 +30,8 @@ function addnote(){
         main.appendChild(note);
 }
 
+
+//Logic for saving a note
 function saveNotes(){
     const notes = document.querySelectorAll(".note textarea");
     const data= Array.from(notes).map(note=>note.value);
