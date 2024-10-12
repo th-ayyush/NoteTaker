@@ -45,6 +45,8 @@ function saveNotes(){
     }
 }
 
+
+//Logic for load a note
 function loadnotes(){
     const lstnotes =JSON.parse(localStorage.getItem("notes"));
 
